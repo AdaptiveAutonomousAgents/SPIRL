@@ -1,8 +1,9 @@
 Official code for *Unsupervised Salient Patch Selection for Data-Efficient Reinforcement Learning*
 # Package installation:
 ```
-# If you want to install rlpyt files that stored in your local dir:
-cd <path/to/rlpyt>  # the dir that has a setup.py
+# Since we made some small modification to the original rlpyt code, we put this package here for simplicity.
+unzip ./rlpyt.zip
+cd ./rlpyt  # the dir that has a setup.py
 pip install -e .
 
 pip install atari-py
